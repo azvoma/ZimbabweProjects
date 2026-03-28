@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Disallow auth pages from being indexed
+Disallow: /login
+Disallow: /signup
+Disallow: /forgot-password
+
+# Sitemap
+Sitemap: https://zimtrust.co.uk/sitemap.xml
